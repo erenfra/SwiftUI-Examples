@@ -11,6 +11,9 @@
 		24A7CC2C292C9F410083E38E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A7CC2B292C9F410083E38E /* ContentView.swift */; };
 		24A7CC2E292C9F4E0083E38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A7CC2D292C9F4E0083E38E /* Assets.xcassets */; };
 		24A7CC32292C9F4F0083E38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A7CC31292C9F4F0083E38E /* Preview Assets.xcassets */; };
+		24A7CC3C292C9FDE0083E38E /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A7CC3B292C9FDE0083E38E /* VStackView.swift */; };
+		24A7CC3E292C9FFC0083E38E /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A7CC3D292C9FFC0083E38E /* HStackView.swift */; };
+		24A7CC42292CA0340083E38E /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A7CC41292CA0340083E38E /* ZStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		24A7CC2D292C9F4E0083E38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A7CC2F292C9F4F0083E38E /* SwiftUI_Examples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Examples.entitlements; sourceTree = "<group>"; };
 		24A7CC31292C9F4F0083E38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24A7CC3B292C9FDE0083E38E /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
+		24A7CC3D292C9FFC0083E38E /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		24A7CC41292CA0340083E38E /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		24A7CC28292C9F400083E38E /* SwiftUI-Examples */ = {
 			isa = PBXGroup;
 			children = (
+				24A7CC38292C9F5F0083E38E /* Layout Basics */,
 				24A7CC29292C9F410083E38E /* SwiftUI_ExamplesApp.swift */,
 				24A7CC2B292C9F410083E38E /* ContentView.swift */,
 				24A7CC2D292C9F4E0083E38E /* Assets.xcassets */,
@@ -67,6 +74,32 @@
 				24A7CC31292C9F4F0083E38E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24A7CC38292C9F5F0083E38E /* Layout Basics */ = {
+			isa = PBXGroup;
+			children = (
+				24A7CC39292C9FA70083E38E /* Containers */,
+			);
+			path = "Layout Basics";
+			sourceTree = "<group>";
+		};
+		24A7CC39292C9FA70083E38E /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				24A7CC3A292C9FC20083E38E /* Stacks */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		24A7CC3A292C9FC20083E38E /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				24A7CC3B292C9FDE0083E38E /* VStackView.swift */,
+				24A7CC3D292C9FFC0083E38E /* HStackView.swift */,
+				24A7CC41292CA0340083E38E /* ZStackView.swift */,
+			);
+			path = Stacks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A7CC3E292C9FFC0083E38E /* HStackView.swift in Sources */,
+				24A7CC3C292C9FDE0083E38E /* VStackView.swift in Sources */,
+				24A7CC42292CA0340083E38E /* ZStackView.swift in Sources */,
 				24A7CC2C292C9F410083E38E /* ContentView.swift in Sources */,
 				24A7CC2A292C9F410083E38E /* SwiftUI_ExamplesApp.swift in Sources */,
 			);
